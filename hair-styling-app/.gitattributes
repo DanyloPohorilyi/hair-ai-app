@@ -1,0 +1,12 @@
+* text=auto
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
+*.keras filter=lfs diff=lfs merge=lfs -text
+scripts/models/*.keras filter=lfs diff=lfs merge=lfs -text
+scripts/my-hairstyle-dataset/* filter=lfs diff=lfs merge=lfs -text

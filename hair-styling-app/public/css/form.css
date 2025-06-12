@@ -1,0 +1,111 @@
+/* 🌌 Основні кольори */
+:root {
+    --color-bg: #1e1e2e;
+    --color-primary: #e0e0e6;
+    --color-accent: #8f90ff;
+    --color-hover: #a78bfa;
+    --color-card: #2a2a3c;
+    --color-border: #444;
+}
+
+/* 📜 Центруємо форму */
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 📝 Контейнер форми */
+.form-wrapper {
+    width: 400px;
+    background: var(--color-card);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* 🖋 Заголовок */
+.form-title {
+    font-size: 22px;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+/* 🖊 Поля вводу */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: var(--color-primary);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    background: #2e2e40;
+    color: var(--color-primary);
+    font-size: 16px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: var(--color-hover);
+    outline: none;
+    box-shadow: 0 0 8px var(--color-hover);
+}
+
+/* ✅ Чекбокс */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 14px;
+    color: var(--color-primary);
+}
+
+.checkbox-group input {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* 🔘 Кнопка */
+.btn-submit {
+    width: 100%;
+    background: var(--color-accent);
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+    background: var(--color-hover);
+    transform: scale(1.05);
+}
+/* ❌ Стиль для помилок */
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* 📱 Адаптивність */
+@media (max-width: 500px) {
+    .form-wrapper {
+        width: 90%;
+    }
+}

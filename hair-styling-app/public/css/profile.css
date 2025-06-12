@@ -1,0 +1,82 @@
+.profile-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #2a2a3c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.avatar-section {
+    position: relative;
+    text-align: center;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.btn-change-avatar {
+    display: block;
+    margin-top: 10px;
+    color: #8f90ff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.hidden-input {
+    display: none;
+}
+
+.edit-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.edit-section input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #2e2e40;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.edit-section button {
+    width: 100%;
+    background: #8f90ff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.images-section {
+    margin-top: 30px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.image-card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.image-card img:hover {
+    transform: scale(1.05);
+}

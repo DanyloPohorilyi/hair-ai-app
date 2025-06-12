@@ -1,0 +1,214 @@
+/* 🌌 Основні кольори */
+:root {
+    --color-bg: #1e1e2e;
+    --color-primary: #e0e0e6;
+    --color-accent: #8f90ff;
+    --color-card: #2a2a3c;
+    --color-hover: #a78bfa;
+    --color-danger: #e74c3c;
+    --color-warning: #f39c12;
+}
+
+/* 🔹 Базові стилі */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+}
+
+/* 📜 Бічне меню */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: var(--color-card);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.menu li {
+    margin: 15px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu a i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.menu a:hover,
+.menu .active {
+    background-color: var(--color-hover);
+    color: #fff;
+}
+
+/* 🏢 Основний контент */
+.content {
+    margin-left: 270px;
+    padding: 30px;
+}
+
+/* 📋 Заголовок сторінки */
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid var(--color-accent);
+}
+
+.btn-add {
+    background: var(--color-hover);
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background: var(--color-accent);
+}
+
+/* 📊 Таблиця */
+.table-wrapper {
+    background: var(--color-card);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.custom-table th {
+    background: var(--color-accent);
+    color: white;
+}
+
+.custom-table tbody tr:hover {
+    background: #2c2c3c;
+}
+
+/* 📌 Теги ролей */
+.role-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.role-tag.admin {
+    background: var(--color-danger);
+    color: white;
+}
+
+.role-tag.user {
+    background: var(--color-hover);
+    color: white;
+}
+
+/* ✏️ Кнопки */
+.btn-edit,
+.btn-delete {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-edit {
+    background: var(--color-warning);
+    color: white;
+}
+
+.btn-edit:hover {
+    background: #d68910;
+}
+
+.btn-delete {
+    background: var(--color-danger);
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+.btn-delete:hover {
+    background: #c0392b;
+}
+
+.preview-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image-preview {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* ⚡ Адаптивний дизайн */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 220px;
+    }
+
+    .content {
+        margin-left: 240px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+}

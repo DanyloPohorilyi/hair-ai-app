@@ -1,0 +1,81 @@
+[
+  { "gender": "Female", "face_shape": "Oblong", "hairstyle": "bob cut hairstyle" },
+  { "gender": "Female", "face_shape": "Oblong", "hairstyle": "shingle bob hairstyle" },
+  { "gender": "Female", "face_shape": "Oblong", "hairstyle": "curtained hair hairstyle" },
+  { "gender": "Female", "face_shape": "Oblong", "hairstyle": "perm hairstyle" },
+
+  { "gender": "Female", "face_shape": "Oval", "hairstyle": "bob cut hairstyle" },
+  { "gender": "Female", "face_shape": "Oval", "hairstyle": "curtained hair hairstyle" },
+  { "gender": "Female", "face_shape": "Oval", "hairstyle": "pixie cut hairstyle" },
+  { "gender": "Female", "face_shape": "Oval", "hairstyle": "regular taper cut hairstyle" },
+
+  { "gender": "Female", "face_shape": "Round", "hairstyle": "shingle bob hairstyle" },
+  { "gender": "Female", "face_shape": "Round", "hairstyle": "regular taper cut hairstyle" },
+  { "gender": "Female", "face_shape": "Round", "hairstyle": "chignon hairstyle" },
+  { "gender": "Female", "face_shape": "Round", "hairstyle": "finger waves hairstyle" },
+
+  { "gender": "Female", "face_shape": "Square", "hairstyle": "regular taper cut hairstyle" },
+  { "gender": "Female", "face_shape": "Square", "hairstyle": "finger waves hairstyle" },
+  { "gender": "Female", "face_shape": "Square", "hairstyle": "bob cut hairstyle" },
+  { "gender": "Female", "face_shape": "Square", "hairstyle": "psychobilly wedge hairstyle" },
+
+  { "gender": "Female", "face_shape": "Heart", "hairstyle": "slicked-back hairstyle" },
+  { "gender": "Female", "face_shape": "Heart", "hairstyle": "updo hairstyle" },
+  { "gender": "Female", "face_shape": "Heart", "hairstyle": "shingle bob hairstyle" },
+  { "gender": "Female", "face_shape": "Heart", "hairstyle": "bowl cut hairstyle" },
+
+  { "gender": "Female", "face_shape": "Triangle", "hairstyle": "regular taper cut hairstyle" },
+  { "gender": "Female", "face_shape": "Triangle", "hairstyle": "bob cut hairstyle" },
+  { "gender": "Female", "face_shape": "Triangle", "hairstyle": "pixie cut hairstyle" },
+  { "gender": "Female", "face_shape": "Triangle", "hairstyle": "short hair hairstyle" },
+
+  { "gender": "Female", "face_shape": "Diamond", "hairstyle": "bob cut hairstyle" },
+  { "gender": "Female", "face_shape": "Diamond", "hairstyle": "regular taper cut hairstyle" },
+  { "gender": "Female", "face_shape": "Diamond", "hairstyle": "shingle bob hairstyle" },
+  { "gender": "Female", "face_shape": "Diamond", "hairstyle": "curtained hair hairstyle" },
+
+  { "gender": "Female", "face_shape": "Rectangle", "hairstyle": "bob cut hairstyle" },
+  { "gender": "Female", "face_shape": "Rectangle", "hairstyle": "crew cut hairstyle" },
+  { "gender": "Female", "face_shape": "Rectangle", "hairstyle": "updo hairstyle" },
+  { "gender": "Female", "face_shape": "Rectangle", "hairstyle": "curtained hair hairstyle" },
+
+  { "gender": "Male", "face_shape": "Oblong", "hairstyle": "taper cut hairstyle" },
+  { "gender": "Male", "face_shape": "Oblong", "hairstyle": "crew cut hairstyle" },
+  { "gender": "Male", "face_shape": "Oblong", "hairstyle": "spiky hair hairstyle" },
+  { "gender": "Male", "face_shape": "Oblong", "hairstyle": "curtained hair hairstyle" },
+
+  { "gender": "Male", "face_shape": "Oval", "hairstyle": "spiky hair hairstyle" },
+  { "gender": "Male", "face_shape": "Oval", "hairstyle": "undercut hairstyle" },
+  { "gender": "Male", "face_shape": "Oval", "hairstyle": "taper cut hairstyle" },
+  { "gender": "Male", "face_shape": "Oval", "hairstyle": "crew cut hairstyle" },
+
+  { "gender": "Male", "face_shape": "Round", "hairstyle": "quiff hairstyle" },
+  { "gender": "Male", "face_shape": "Round", "hairstyle": "taper cut hairstyle" },
+  { "gender": "Male", "face_shape": "Round", "hairstyle": "liberty spikes hairstyle" },
+  { "gender": "Male", "face_shape": "Round", "hairstyle": "undercut hairstyle" },
+
+  { "gender": "Male", "face_shape": "Square", "hairstyle": "surfer hair hairstyle" },
+  { "gender": "Male", "face_shape": "Square", "hairstyle": "mohawk hairstyle" },
+  { "gender": "Male", "face_shape": "Square", "hairstyle": "spiky hair hairstyle" },
+  { "gender": "Male", "face_shape": "Square", "hairstyle": "crew cut hairstyle" },
+
+  { "gender": "Male", "face_shape": "Heart", "hairstyle": "curtained hair hairstyle" },
+  { "gender": "Male", "face_shape": "Heart", "hairstyle": "spiky hair hairstyle" },
+  { "gender": "Male", "face_shape": "Heart", "hairstyle": "taper cut hairstyle" },
+  { "gender": "Male", "face_shape": "Heart", "hairstyle": "slicked-back hairstyle" },
+
+  { "gender": "Male", "face_shape": "Triangle", "hairstyle": "slicked-back hairstyle" },
+  { "gender": "Male", "face_shape": "Triangle", "hairstyle": "fade hairstyle" },
+  { "gender": "Male", "face_shape": "Triangle", "hairstyle": "curtained hair hairstyle" },
+  { "gender": "Male", "face_shape": "Triangle", "hairstyle": "taper cut hairstyle" },
+
+  { "gender": "Male", "face_shape": "Diamond", "hairstyle": "taper cut hairstyle" },
+  { "gender": "Male", "face_shape": "Diamond", "hairstyle": "spiky hair hairstyle" },
+  { "gender": "Male", "face_shape": "Diamond", "hairstyle": "fade hairstyle" },
+  { "gender": "Male", "face_shape": "Diamond", "hairstyle": "curtained hair hairstyle" },
+
+  { "gender": "Male", "face_shape": "Rectangle", "hairstyle": "liberty spikes hairstyle" },
+  { "gender": "Male", "face_shape": "Rectangle", "hairstyle": "dreadlocks hairstyle" },
+  { "gender": "Male", "face_shape": "Rectangle", "hairstyle": "slicked-back hairstyle" },
+  { "gender": "Male", "face_shape": "Rectangle", "hairstyle": "crew cut hairstyle" }
+]
